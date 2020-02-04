@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.rect {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    background-color: forestgreen;
+    border-radius: 16px;
+}
+
+.oval {
+    width: 100px;
+    height: 50px;
+    margin: 50px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+}
+
+.crcl {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.trgl {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border: 50px solid transparent;
+    border-top-color: brown;
+}

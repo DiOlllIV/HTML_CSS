@@ -1,0 +1,31 @@
+a:link {
+    background-color: black;
+    color: white;
+}
+
+a:visited {
+    background-color: orange;
+    color: green;
+}
+
+a:active,
+button:active {
+    border: 3px solid red;
+}
+
+a:hover {
+    font-size: 24px;
+}
+
+[disabled] {
+    border: 2px dashed grey;
+}
+
+button:hover:enabled {
+    background-color: grey;
+    color: white;
+}
+
+input:focus {
+    background-color: orange;
+}
