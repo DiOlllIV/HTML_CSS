@@ -3,7 +3,11 @@ div>div {
     margin: 16px;
     width: 200px;
     height: 200px;
-    display: inline-block;
+}
+
+.gallery {
+    display: flex;
+    margin: 0;
 }
 
 .image {
