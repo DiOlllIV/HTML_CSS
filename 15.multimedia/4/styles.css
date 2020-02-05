@@ -7,7 +7,6 @@
 .image {
     margin: auto;
     max-width: 100%;
-    position: absolute;
 }
 
 .image-button {
@@ -22,7 +21,9 @@
     font-weight: 700;
     text-align: center;
     cursor: pointer;
-    transform: translate(0, 285%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .image-button:hover {
