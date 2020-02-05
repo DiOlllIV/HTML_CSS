@@ -2,7 +2,6 @@
     position: relative;
     display: flex;
     justify-content: center;
-    cursor: pointer;
 }
 
 .image {
@@ -22,7 +21,8 @@
     opacity: 0.5;
     font-weight: 700;
     text-align: center;
-    margin-top: calc(50%-25px);
+    cursor: pointer;
+    transform: translate(0, 285%);
 }
 
 .image-button:hover {
