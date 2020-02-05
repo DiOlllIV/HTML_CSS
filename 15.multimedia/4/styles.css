@@ -7,14 +7,12 @@
 }
 
 .image {
-    display: block;
     margin: auto;
     max-width: 100%;
 }
 
 .image-button {
     display: block;
-    margin: auto;
     width: 200px;
     height: 50px;
     line-height: 50px;
@@ -24,7 +22,6 @@
     opacity: 0.5;
     font-weight: 700;
     text-align: center;
-    margin-top: -200px;
 }
 
 .image-button:hover {
