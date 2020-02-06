@@ -2,9 +2,6 @@ form {
     margin: 32px;
 }
 
-input,
-textarea,
-select,
-button {
-    margin: 8px 0 0 0;
+div {
+    margin: 8px
 }
