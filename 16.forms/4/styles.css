@@ -23,6 +23,7 @@ body {
 }
 
 .form-title {
+    padding: 2px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -51,6 +52,7 @@ body {
     color: #fff;
     border-radius: 4px;
     width: -webkit-fill-available;
+    font-family: monospace;
 }
 
 input:invalid {
