@@ -30,11 +30,11 @@ body {
 .form-control {
     display: flex;
     flex-direction: column;
-    padding: 8px 0;
+    padding: 0 0 8px 0;
 }
 
 .form-label {
-    padding: 0 0 4px 0;
+    margin: 0 0 4px 0;
 }
 
 .form-input {
