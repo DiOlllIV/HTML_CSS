@@ -23,7 +23,6 @@ body {
 }
 
 .form-title {
-    padding: 2px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -31,11 +30,11 @@ body {
 .form-control {
     display: flex;
     flex-direction: column;
-    margin-bottom: 8px;
+    padding: 8px 0;
 }
 
 .form-label {
-    margin-bottom: 4px;
+    padding: 0 0 4px 0;
 }
 
 .form-input {
