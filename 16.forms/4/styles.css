@@ -10,17 +10,20 @@ body {
 
 .page {
     position: absolute;
-    top: 50%;
     background-color: aqua;
+    box-shadow: 0 4px 8px 0 rgb(0, 4, 0, 0.2);
+    margin: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-form {
     font-size: 16px;
     font-family: monospace;
     width: 300px;
     padding: 16px;
-    box-shadow: 0 4px 8px 0 rgb(0, 4, 0, 0.2);
-    margin: 0;
 }
-
-.login-form {}
 
 .form-title {
     text-align: center;
@@ -32,13 +35,13 @@ body {
     flex-direction: column;
     margin: 0;
     margin-bottom: 8px;
-    padding: 4px;
+    padding: 0;
 }
 
 .form-input {
+    margin-top: 4px;
     height: 32px;
     border-radius: 4px;
-    padding: 4px;
     border: 1px solid #808080
 }
 
