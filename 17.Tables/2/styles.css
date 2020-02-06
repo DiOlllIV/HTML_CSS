@@ -22,8 +22,8 @@ th {
 
 th,
 td {
-    line-height: 30px;
-    padding: 5px;
+    padding: 4px;
+    line-height: 40px;
 }
 
 tbody>tr:nth-child(odd) {
