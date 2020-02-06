@@ -11,7 +11,7 @@
 
 <body>
     <div class="form-cotrol">
-        <input type="text" name="lstName" value="Emerson">
+        <input type="text" name="lastName" value="Emerson">
     </div>
     <div class="form-cotrol">
         <input type="number" name="age" value="17">
@@ -23,18 +23,12 @@
         </label>
     </div>
     <div class="form-cotrol">
-        <label>
-            <input type="radio" name="gender">
-            Male
-        </label>
-        <label>
-            <input type="radio" name="gender">
-            Female
-        </label>
-        <label>
-            <input type="radio" name="gender">
-            Secret
-        </label>
+        <input id="male" type="radio" name="gender">
+        <label for="male">Male</label>
+        <input id="female" type="radio" name="gender">
+        <label for="female">Female</label>
+        <input id="secret" type="radio" name="gender">
+        <label for="secret">Secret</label>
     </div>
     <div class="form-cotrol">
         <textarea name="description" placeholder="Write description..."></textarea>
