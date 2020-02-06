@@ -2,24 +2,22 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: bisque;
+html {
+    font-family: monospace;
+    font-size: 16px;
 }
 
 .page {
-    position: absolute;
-    background-color: aqua;
-    box-shadow: 0 4px 8px 0 rgb(0, 4, 0, 0.2);
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    background-color: bisque;
+    display: flex;
 }
 
 .login-form {
-    font-size: 16px;
-    font-family: monospace;
+    background-color: aqua;
+    box-shadow: 0 4px 8px 0 rgb(0, 4, 0, 0.2);
     width: 300px;
     padding: 16px;
+    margin: auto;
 }
 
 .form-title {
