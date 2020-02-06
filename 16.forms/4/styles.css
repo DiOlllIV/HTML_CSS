@@ -31,7 +31,7 @@ body {
 .form-control {
     display: flex;
     flex-direction: column;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .form-label {
