@@ -1,0 +1,24 @@
+.awesome {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon1 {
+    font-size: 16px;
+}
+
+.icon2 {
+    font-size: 32px;
+}
+
+.icon3 {
+    font-size: 64px;
+}
+
+.icon4 {
+    font-size: 128px;
+}
+
+.icon5 {
+    font-size: 256px;
+}
