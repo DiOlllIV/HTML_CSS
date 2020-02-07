@@ -4,13 +4,17 @@
 
 table {
     margin: 16px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
 }
 
 table,
 td,
 tr {
-    border: 1px solid black;
-    /* border-collapse: collapse; */
+    border-collapse: collapse;
     text-align: center;
 }
 
@@ -18,7 +22,7 @@ tr:first-child>td,
 tr:last-child>td,
 tr>td:first-child,
 tr>td:last-child {
-    border: 0 !important;
+    border: none !important;
     background-color: white !important;
 }
 
