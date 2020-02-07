@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 .awesome {
+    line-height: 0;
     display: flex;
     justify-content: space-around;
-    margin: 0;
 }
 
 .icon1 {
