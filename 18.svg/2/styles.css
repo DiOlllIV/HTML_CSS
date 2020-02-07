@@ -15,7 +15,7 @@ button {
     font-weight: 700;
     border: none;
     cursor: pointer;
-    line-height: 52px;
+    line-height: 50px;
 }
 
 button:hover {
