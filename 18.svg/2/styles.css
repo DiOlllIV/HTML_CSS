@@ -13,6 +13,7 @@ button {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     border: none;
+    vertical-align: middle;
     cursor: pointer;
 }
 
