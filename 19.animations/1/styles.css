@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.cont {
+.container {
     margin: 32px;
 }
 
@@ -11,13 +11,13 @@
     background-color: coral;
     text-align: center;
     line-height: 100px;
+}
+
+.rect:hover {
     opacity: 0.5;
     width: 100px;
     height: 100px;
     transition: width 2s, opacity 0.5s;
-}
-
-.rect:hover {
     width: 100%;
     opacity: 1;
 }
