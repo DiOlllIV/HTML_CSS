@@ -20,6 +20,7 @@
 .rect:hover {
     width: 100%;
     opacity: 1;
+    animation-timing-function: linear;
 }
 
 .rect:nth-child(2) {
