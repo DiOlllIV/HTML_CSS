@@ -24,8 +24,6 @@
     text-align: center;
     animation: top;
     animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 @keyframes top {
@@ -33,6 +31,6 @@
         top: 0;
     }
     to {
-        top: 45vh;
+        top: 42.5цvh;
     }
 }
