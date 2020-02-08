@@ -22,10 +22,6 @@
     opacity: 1;
 }
 
-.rect:nth-child(1) {
-    animation-timing-function: linear;
-}
-
 .rect:nth-child(2) {
     animation-timing-function: ease;
 }
