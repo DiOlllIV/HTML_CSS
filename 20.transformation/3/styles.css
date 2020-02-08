@@ -22,7 +22,6 @@
     margin-bottom: 8px;
     border-right-color: black;
     animation: progress 2s infinite linear;
-    transform: rotate(-45deg);
 }
 
 .spinner-text {
@@ -46,7 +45,7 @@
 
 @keyframes progress {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(-45deg);
     }
     100% {
         transform: rotate(360deg);
