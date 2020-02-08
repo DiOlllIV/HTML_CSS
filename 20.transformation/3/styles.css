@@ -45,7 +45,7 @@
 
 @keyframes progress {
     0% {
-        transform: rotate(-25deg);
+        transform: rotate(-24deg);
     }
     100% {
         transform: rotate(360deg);
