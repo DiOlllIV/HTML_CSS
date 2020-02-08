@@ -19,7 +19,7 @@
     height: 50px;
     border: 4px solid lightgray;
     border-radius: 50%;
-    margin-bottom: 8px;
+    margin-bottom: 9px;
     border-top-color: black;
     animation: progress 2s infinite linear;
 }
@@ -45,7 +45,7 @@
 
 @keyframes progress {
     0% {
-        transform: rotate(-30deg);
+        transform: rotate(-28deg);
     }
     100% {
         transform: rotate(360deg);
