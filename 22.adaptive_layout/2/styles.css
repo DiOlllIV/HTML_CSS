@@ -42,12 +42,12 @@
         display: flex;
     }
     .navigation {
-        width: 33.333vw;
+        width: 33.3vw;
     }
     .product-list {
-        width: 33.333vw;
+        width: 33.3vw;
     }
     .news {
-        width: 33.333vw;
+        width: 33.3vw;
     }
 }
