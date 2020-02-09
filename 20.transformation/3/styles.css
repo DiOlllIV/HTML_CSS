@@ -7,10 +7,6 @@
     display: flex;
 }
 
-html {
-    line-height: 1.5;
-}
-
 .spinner {
     margin: auto;
 }
@@ -32,6 +28,7 @@ html {
     font-size: 16px;
     text-transform: uppercase;
     animation: blinking 2s infinite linear;
+    line-height: 20px;
 }
 
 @keyframes blinking {
