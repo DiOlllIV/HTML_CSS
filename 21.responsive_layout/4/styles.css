@@ -25,7 +25,7 @@ body {
 
 .main {
     display: flex;
-    margin: auto;
+    margin-top: 0.5em;
 }
 
 .navigation {
