@@ -13,12 +13,8 @@ body {
     height: 100vh;
 }
 
-.small {
+.main {
     display: flex;
-}
-
-.medium {
-    display: contents;
 }
 
 .header {
@@ -97,7 +93,7 @@ img {
 }
 
 @media screen and (max-width: 599px) {
-    .small {
+    .main {
         flex-direction: column;
     }
     .medium {
@@ -118,16 +114,14 @@ img {
 }
 
 @media screen and (max-width: 899px) {
-    .medium {
-        display: flex;
+    .main {
         flex-direction: column;
     }
     .section {
         margin: auto;
-        width: 100%;
+        width: 80%;
     }
     .news {
-        margin: auto;
         width: 100%;
     }
 }
