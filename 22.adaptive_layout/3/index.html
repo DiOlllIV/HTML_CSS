@@ -12,8 +12,9 @@
 <body>
     <main>
         <picture class="img">
-            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg" media="(min-width:400px)">
-            <source srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg">
+            <source class="small-img" srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" media="(max-width:400px)">
+
+            <source class="big-img" srcset="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/big.jpeg">
             <img src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson22/task3/small.jpg" alt="Responsive img">
         </picture>
     </main>
