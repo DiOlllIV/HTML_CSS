@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    color: $text-color-secondary;
     &__item {
         border-radius: $border-radius;
         background-color: $color-secondary;
