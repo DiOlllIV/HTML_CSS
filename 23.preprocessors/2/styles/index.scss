@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 
-.contaier {
+.container {
     display: flex;
     @include for-portrait {
         flex-direction: column;
@@ -22,7 +22,6 @@ body {
     width: 100px;
     height: 100px;
     margin: 8px;
-    background-color: #c47;
     @include for-small {
         background-color: #ff7f50;
     }
@@ -31,5 +30,8 @@ body {
     }
     @include for-large {
         background-color: #a61;
+    }
+    @include for-xlarge {
+        background-color: #c47;
     }
 }
