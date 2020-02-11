@@ -36,6 +36,9 @@
 .menu__item-text {
   line-height: 3em;
 }
+.menu__item:hover > .submenu {
+  display: block;
+}
 
 .submenu {
   position: absolute;
@@ -54,9 +57,6 @@
 }
 .submenu__item:hover {
   color: #000;
-}
-.submenu:hover {
-  display: block;
 }
 
 ul {

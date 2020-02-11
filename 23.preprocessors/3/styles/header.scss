@@ -34,6 +34,9 @@
         &-text {
             line-height: 3em;
         }
+        &:hover>.submenu {
+            display: block;
+        }
     }
 }
 
@@ -53,9 +56,6 @@
         &:hover {
             color: #000;
         }
-    }
-    &:hover {
-        display: block;
     }
 }
 
