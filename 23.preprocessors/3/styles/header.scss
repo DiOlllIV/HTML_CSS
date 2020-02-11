@@ -24,6 +24,9 @@
         width: 100%;
         height: 100%;
         padding: 0 8px;
+        &_active {
+            color: yellow
+        }
         &:hover {
             background-color: #9acd32;
             color: yellow;
