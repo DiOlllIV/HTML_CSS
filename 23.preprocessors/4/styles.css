@@ -2,14 +2,6 @@
   box-sizing: border-box;
 }
 
-.page {
-  display: flex;
-}
-
-.container {
-  display: flex;
-}
-
 html {
   font-family: Verdana;
 }
@@ -27,7 +19,6 @@ html {
 }
 
 .block {
-  width: 33.3333333vw;
   display: flex;
   height: 200px;
   text-transform: lowercase;
@@ -41,40 +32,24 @@ html {
 
 @media screen and (min-width: 900) {
   .page {
-    display: block;
+    display: flex;
   }
 
-  .navigation {
-    width: 50vw;
-  }
-
-  .product-list {
-    width: 50vw;
-  }
-
-  .news {
-    width: 100vw;
+  .block {
+    width: 33.33333333vw;
   }
 }
 @media screen and (min-width: 600) {
-  .page {
-    display: block;
-  }
-
   .container {
-    display: block;
+    display: flex;
   }
 
   .navigation {
-    width: 100vw;
+    width: 50vw;
   }
 
   .product-list {
-    width: 100vw;
-  }
-
-  .news {
-    width: 100vw;
+    width: 50vw;
   }
 }
 

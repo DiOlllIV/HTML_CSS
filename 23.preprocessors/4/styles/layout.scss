@@ -1,13 +1,13 @@
-$sm:600;
-$md:900;
+$md:600;
+$lg:900;
 @mixin for-small {
-    @media screen and(min-width: $sm) {
+    @media screen and(min-width: $md) {
         @content;
     }
 }
 
 @mixin for-medium {
-    @media screen and(min-width: $md) {
+    @media screen and(min-width: $lg) {
         @content;
     }
 }

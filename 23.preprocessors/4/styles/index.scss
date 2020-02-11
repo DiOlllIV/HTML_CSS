@@ -3,14 +3,6 @@
         box-sizing: border-box;
     }
     
-    .page {
-        display: flex;
-    }
-    
-    .container {
-        display: flex;
-    }
-    
     html {
         font-family: Verdana;
     }
@@ -28,7 +20,6 @@
     }
     
     .block {
-        width: 33.3333333vw;
         display: flex;
         height: 200px;
         text-transform: lowercase;
@@ -42,33 +33,21 @@
     
     @include for-medium {
         .page {
-            display: block;
+            display: flex;
         }
-        .navigation {
-            width: 50vw;
-        }
-        .product-list {
-            width: 50vw;
-        }
-        .news {
-            width: 100vw;
+        .block {
+            width: 33.33333333vw;
         }
     }
     
     @include for-small {
-        .page {
-            display: block;
-        }
         .container {
-            display: block;
+            display: flex;
         }
         .navigation {
-            width: 100vw;
+            width: 50vw;
         }
         .product-list {
-            width: 100vw;
-        }
-        .news {
-            width: 100vw;
+            width: 50vw;
         }
     }
