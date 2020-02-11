@@ -6,6 +6,10 @@ html {
   font-family: Verdana;
 }
 
+.page {
+  width: 100vw;
+}
+
 .navigation {
   background-color: #ff7f50;
 }
@@ -30,16 +34,7 @@ html {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 900) {
-  .page {
-    display: flex;
-  }
-
-  .block {
-    width: 33.33333333vw;
-  }
-}
-@media screen and (min-width: 600) {
+@media screen and (min-width: 600px) {
   .container {
     display: flex;
   }
@@ -50,6 +45,15 @@ html {
 
   .product-list {
     width: 50vw;
+  }
+}
+@media screen and (min-width: 900px) {
+  .page {
+    display: flex;
+  }
+
+  .block {
+    width: 33.333333vw;
   }
 }
 

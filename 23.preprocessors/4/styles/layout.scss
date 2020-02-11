@@ -1,5 +1,5 @@
-$md:600;
-$lg:900;
+$md:600px;
+$lg:900px;
 @mixin for-small {
     @media screen and(min-width: $md) {
         @content;

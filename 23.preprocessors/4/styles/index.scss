@@ -7,6 +7,10 @@
         font-family: Verdana;
     }
     
+    .page {
+        width: 100vw;
+    }
+    
     .navigation {
         background-color: #ff7f50;
     }
@@ -31,15 +35,6 @@
         }
     }
     
-    @include for-medium {
-        .page {
-            display: flex;
-        }
-        .block {
-            width: 33.33333333vw;
-        }
-    }
-    
     @include for-small {
         .container {
             display: flex;
@@ -49,5 +44,14 @@
         }
         .product-list {
             width: 50vw;
+        }
+    }
+    
+    @include for-medium {
+        .page {
+            display: flex;
+        }
+        .block {
+            width: 33.333333vw;
         }
     }
