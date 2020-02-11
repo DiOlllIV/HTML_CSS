@@ -39,12 +39,8 @@ html {
     display: flex;
   }
 
-  .navigation {
-    width: 50vw;
-  }
-
-  .product-list {
-    width: 50vw;
+  .block {
+    flex: 1;
   }
 }
 @media screen and (min-width: 900px) {
