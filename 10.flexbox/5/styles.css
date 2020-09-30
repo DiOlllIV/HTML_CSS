@@ -3,8 +3,15 @@ header {
   justify-content: center;
 }
 
+.articles-list {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .article {
-  min-width: 300px;
+  width: 300px;
+  flex-grow: 1;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
