@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  min-width: 300px;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+}
